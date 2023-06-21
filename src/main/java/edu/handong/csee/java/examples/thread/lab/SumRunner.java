@@ -16,7 +16,6 @@ public class SumRunner implements Runnable{
 	}
 
 	public long getTotalSumFromTo() {
-		
 		try {
 			Thread.sleep(1000);
 		} catch (InterruptedException e) {
@@ -26,7 +25,6 @@ public class SumRunner implements Runnable{
 		long total = 0;
 		for(long i=from;i<=to;i++)
 			total+=i;
-
 		return total;
 	}
 }
